@@ -49,8 +49,6 @@ class Song
   def self.new_from_filename(filename)
     
     class_constructor_data = filename.split("-")
-    name = 1
-    artist_name = 2
     
     song = self.new
     song.name = class_constructor_data[1]
