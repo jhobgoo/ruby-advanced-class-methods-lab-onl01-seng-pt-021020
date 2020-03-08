@@ -29,7 +29,7 @@ class Song
   end
   
   def self.find_by_name(name)
-    @@all.finddo |name|
+    @@all.find.ecah do |name|
       song.name == name
     end
   end
