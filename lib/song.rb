@@ -46,5 +46,6 @@ class Song
   
   def self.new_from_filename(filename)
     class_constructor_data = filename.split("-")
+    song = 
     
 end
