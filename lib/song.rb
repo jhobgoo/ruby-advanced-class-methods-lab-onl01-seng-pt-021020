@@ -52,7 +52,7 @@ class Song
     
     song = self.new
     song.name = filename_data[1].chomp(".mp3")
-    artist_name = filename_data[2]
+    song.artist_name = filename_data[2]
 
     binding.pry
     
