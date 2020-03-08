@@ -55,4 +55,5 @@ class Song
     song.name = filename_data[1].chomp(".mp3")
     song
     
+  end
 end
