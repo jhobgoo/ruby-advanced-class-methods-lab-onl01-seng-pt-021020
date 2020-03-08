@@ -51,7 +51,7 @@ class Song
     class_constructor_data = filename.split("-")
     
     song = self.new
-    song.name = class_constructor_data[1]
+    song.name = class_constructor_data[1].chomp(".mp3")
     binding.pry
     
 end
