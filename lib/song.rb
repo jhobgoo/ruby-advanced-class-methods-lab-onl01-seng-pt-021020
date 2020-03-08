@@ -38,8 +38,6 @@ class Song
     if @@all.find_by_name.each do |song|
       song.name == name
       self.find_by_name
-    else 
-      self.create_by_name
     end
   end
   
