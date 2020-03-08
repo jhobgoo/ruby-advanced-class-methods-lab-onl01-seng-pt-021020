@@ -29,11 +29,10 @@ class Song
   end
   
   def self.find_by_name(name)
-    song = self.new
-    @@all.find.each do |name|
+    if @@all.find.each do |name|
       song.name == name
+      puts song
     end
-    song
   end
   
 end
