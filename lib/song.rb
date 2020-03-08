@@ -38,7 +38,7 @@ class Song
     if @@all.find.each do |song|
       song.name == name
     end
-      self.find_by_name(name)
+      self.find_by_name
     else
       self.create_by_name
     end
