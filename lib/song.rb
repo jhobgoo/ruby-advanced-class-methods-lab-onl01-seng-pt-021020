@@ -39,7 +39,6 @@ class Song
     if @@all.find.each do |song|
       song.name == name
       return song
-    end
   end
   
 end
