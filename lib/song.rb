@@ -48,10 +48,12 @@ class Song
   
   def self.new_from_filename(filename)
     
-    class_constructor_data = filename.split("-")
+    filename_data = filename.split("-")
     
     song = self.new
-    song.name = class_constructor_data[1].chomp(".mp3")
+    song.name = filename_data[1].chomp(".mp3")
+    artist_name = filename_data[2]
+
     binding.pry
     
 end
